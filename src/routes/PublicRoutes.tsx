@@ -5,7 +5,6 @@ import { checkPathMatch, paths } from './helpers'
 
 const HomePage = lazy(() => import('pages/HomePage'))
 const ProductDetailsPage = lazy(() => import('pages/ProductDetailsPage'))
-
 const PublicRoutes: React.FC = () => {
     const location = useLocation()
 
